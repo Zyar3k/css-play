@@ -39,7 +39,9 @@ const Buttons = () => {
         <button className='btn7'>Button</button>
       </div>
       <div className='btnContainer'>
-        <button className='btn8'>Button</button>
+        <button className='btn8'>
+          <span>Button</span>
+        </button>
       </div>
       <div className='btnContainer'>
         <button className='btn9'>Button</button>
