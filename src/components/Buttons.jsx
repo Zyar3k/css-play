@@ -2,7 +2,13 @@ const Buttons = () => {
   return (
     <main className='buttons container'>
       <div className='btnContainer'>
-        <button className='btn1'>Button</button>
+        <button className='btn1'>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Neon Button
+        </button>
       </div>
       <div className='btnContainer'>
         <button className='btn2'>Button</button>
