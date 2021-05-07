@@ -99,6 +99,9 @@ body {
 .btnContainer:nth-of-type(2) {
   background-color: #393e46;
 }
+.btnContainer:nth-of-type(3) {
+  background-color: #f7e590;
+}
 .btnContainer:nth-of-type(6) {
   background-color: #222831;
 }
@@ -125,12 +128,7 @@ body {
   flex-direction: column;
 }
 /* button #1 */
-/*
-#f9ed69
-#f08a5d
-#b83b5e
-#6a2c70
-*/
+
 .btn1 {
   position: relative;
   width: 155px;
@@ -305,15 +303,47 @@ body {
   }
 }
 
+/* button #3 */
+
+.btn3 {
+  position: relative;
+  width: 300px;
+  height: 75px;
+  border: none;
+  background: none;
+  margin: 10px 0;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.btn3:hover {
+  color: #fff;
+}
+.btn3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: url("assets/btn-bg1.png");
+  background-size: cover;
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+.btn3:hover:before {
+  width: 100%;
+}
+
+.btn3 span {
+  position: relative;
+  z-index: 1;
+}
+
 /* button #6 */
 
 .btn6 {
-  /*
-#222831
-#393e46
-#00adb5
-#eeeeee
-*/
   position: relative;
   display: inline-block;
   padding: 15px 20px;
