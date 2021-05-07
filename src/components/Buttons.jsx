@@ -21,7 +21,10 @@ const Buttons = () => {
         <button className='btn4'>Button</button>
       </div>
       <div className='btnContainer'>
-        <button className='btn5'>Button</button>
+        <button className='btn5'>
+          Contact
+          <span></span>
+        </button>
       </div>
       <div className='btnContainer'>
         <button className='btn6'>
