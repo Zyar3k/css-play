@@ -18,7 +18,7 @@ const Buttons = () => {
         </button>
       </div>
       <div className='btnContainer'>
-        <button className='btn4'>Button</button>
+        <button className='btn4'>Shine Button</button>
       </div>
       <div className='btnContainer'>
         <button className='btn5'>
