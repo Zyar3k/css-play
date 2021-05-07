@@ -7,7 +7,10 @@ const Buttons = () => {
         </button>
       </div>
       <div className='btnContainer'>
-        <button className='btn2'>Button</button>
+        <button className='btn2'>
+          <span>Button</span>
+          <div className='liquid'></div>
+        </button>
       </div>
       <div className='btnContainer'>
         <button className='btn3'>Button</button>
