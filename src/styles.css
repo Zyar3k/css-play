@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  background-color: #232931;
+  height: 70px;
+}
+
+.headerContent,
+.container {
+  height: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.header .top,
+.header .navBar {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .navBar {
+  justify-content: space-around;
+}
+
+.header .top > a,
+.header .navBar > a {
+  color: rgb(240, 248, 255);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header .top > a {
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: #232931;
+  text-shadow: 4px 4px 2px rgb(240, 248, 255), -4px -4px 2px rgb(240, 248, 255),
+    -4px 4px 2px rgb(240, 248, 255), 4px -4px 2px rgb(240, 248, 255);
+}
+
+.header .navBar > a:hover {
+  font-weight: 900;
+  color: #232931;
+  text-shadow: 4px 4px 2px rgb(240, 248, 255), -4px -4px 2px rgb(240, 248, 255),
+    -4px 4px 2px rgb(240, 248, 255), 4px -4px 2px rgb(240, 248, 255);
+}
