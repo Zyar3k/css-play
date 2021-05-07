@@ -3,11 +3,7 @@ const Buttons = () => {
     <main className='buttons container'>
       <div className='btnContainer'>
         <button className='btn1'>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Neon Button
+          <a href='/'>glass button</a>
         </button>
       </div>
       <div className='btnContainer'>
@@ -23,7 +19,13 @@ const Buttons = () => {
         <button className='btn5'>Button</button>
       </div>
       <div className='btnContainer'>
-        <button className='btn6'>Button</button>
+        <button className='btn6'>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Neon Button
+        </button>
       </div>
       <div className='btnContainer'>
         <button className='btn7'>Button</button>
